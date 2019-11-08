@@ -30,16 +30,11 @@
     "lint-staged"
   ],
   "lint-staged": {
-    "ignore": [
-      "test/fixtures/*.js"
-    ],
-    "linters": {
-      "**/*.js": "eslint",
-      "package.json": [
-        "sort-package-json",
-        "git add"
-      ]
-    }
+    "**/*.js": "eslint",
+    "package.json": [
+      "sort-package-json",
+      "git add"
+    ]
   },
   "dependencies": {
     "babel-eslint": "10.0.1",
